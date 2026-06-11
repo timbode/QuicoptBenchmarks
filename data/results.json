@@ -1509,13 +1509,13 @@
       "sense": "max"
     },
     "reference": {
-      "value": 7006.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6998"
+      "value": 7008.0,
+      "source": "Cosm (arXiv 2505.18508); supersedes SBM-era 7006"
     },
     "wall_time_s": 2.0468998,
     "hardware": "NVIDIA A100 80GB",
     "solver": "Quicopt v0.1",
-    "pct_of_best": 96.51727091064802
+    "pct_of_best": 96.48972602739725
   },
   {
     "problem_type": "gset",
@@ -1531,13 +1531,13 @@
       "sense": "max"
     },
     "reference": {
-      "value": 9926.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
+      "value": 9940.0,
+      "source": "Cosm (arXiv 2505.18508); supersedes BLS 9926"
     },
     "wall_time_s": 1.9588721,
     "hardware": "NVIDIA A100 80GB",
     "solver": "Quicopt v0.1",
-    "pct_of_best": 96.51420511787225
+    "pct_of_best": 96.37826961770624
   },
   {
     "problem_type": "gset",
@@ -1553,12 +1553,12 @@
       "sense": "max"
     },
     "reference": {
-      "value": 14030.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
+      "value": 14060.0,
+      "source": "Cosm (arXiv 2505.18508); supersedes BLS 14030"
     },
     "wall_time_s": 2.75404,
     "hardware": "NVIDIA A100 80GB",
     "solver": "Quicopt v0.1",
-    "pct_of_best": 96.59301496792587
+    "pct_of_best": 96.38691322901849
   }
 ]

@@ -19,7 +19,7 @@ optimal) value from the literature, and the wall-clock time on the stated hardwa
 
 Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
 
-**52/71 instances graded vs best-known** — median 99.0%, range 96.5–100.0% of best-known.
+**52/71 instances graded vs best-known** — median 99.0%, range 96.4–100.0% of best-known.
 
 | instance | N | edges | w | cut | best-known | %_of_best | wall_time_s | hardware | solver |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -91,9 +91,9 @@ Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
 | G66 | 9000 | 18000 | ±1 | 6140 | 6364 | 96.48 | 1.26 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G67 | 10000 | 20000 | ±1 | 6714 | 6950 | 96.6 | 2.25 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G70 | 10000 | 9999 | +1 | 9448 | 9595 | 98.47 | 2.6 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G72 | 10000 | 20000 | ±1 | 6762 | 7006 | 96.52 | 2.05 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G77 | 14000 | 28000 | ±1 | 9580 | 9926 | 96.51 | 1.96 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G81 | 20000 | 40000 | ±1 | 13552 | 14030 | 96.59 | 2.75 | NVIDIA A100 80GB | Quicopt v0.1 |
+| G72 | 10000 | 20000 | ±1 | 6762 | 7008 | 96.49 | 2.05 | NVIDIA A100 80GB | Quicopt v0.1 |
+| G77 | 14000 | 28000 | ±1 | 9580 | 9940 | 96.38 | 1.96 | NVIDIA A100 80GB | Quicopt v0.1 |
+| G81 | 20000 | 40000 | ±1 | 13552 | 14060 | 96.39 | 2.75 | NVIDIA A100 80GB | Quicopt v0.1 |
 
 <!-- END RESULTS -->
 
