@@ -3,7 +3,16 @@
     "blurb": "Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.",
     "n_instances": 71,
     "objective_label": "cut",
+    "objective_sense": "max",
     "reference_label": "best-known",
-    "title": "Gset \u2014 Maximum Cut"
+    "title": "Gset — Maximum Cut"
+  },
+  "labs": {
+    "blurb": "Low-Autocorrelation Binary Sequences: find a ±1 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N ≤ 66 and the whole field sits well above it, so no reference/gap column is shown here — the head-to-head against Gurobi and ABS2 lives on the website. Per row: `energy` is the best over 100 seeds; `wall_time_s` is the mean single-seed solve time.",
+    "n_instances": 97,
+    "objective_label": "sidelobe energy",
+    "objective_sense": "min",
+    "headline": "median merit factor F ≈ 5 across N=4–100",
+    "title": "LABS — Low-Autocorrelation Binary Sequences"
   }
 }

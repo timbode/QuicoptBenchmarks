@@ -1,104 +1,34 @@
 # Quicopt Benchmarks
 
 Public benchmark results for **Quicopt**, an optimization solver suite, on standard problem sets.
-Each row is the best objective Quicopt achieved on an instance, the gap to the best-known (or
-optimal) value from the literature, and the wall-clock time on the stated hardware.
+The summary below has one row per problem family; the full per-instance results live in
+[`docs/`](docs/).
 
 - **What this is:** results only. The solver is identified by version (`Quicopt vX.Y`); this
   repository contains no solver code and no algorithmic detail.
 - **Data:** machine-readable in [`data/`](data/) — [`results.json`](data/results.json) (all
-  problem types) and one `<type>.csv` per problem family. The tables below are generated from
-  those files by [`render.py`](render.py); edit the data, not the tables.
-- **Columns:** instance + its size; the achieved objective; the published best-known / optimum
-  and its source; `%_of_best` (100 = matched best-known); wall-time (s); hardware; solver version.
-  A blank best-known means no confident reference value is published for that instance.
+  problem types) and one `<type>.csv` per family. The summary and the per-problem pages are
+  generated from those files by [`render.py`](render.py); edit the data, not the prose tables.
+- **Per-instance columns** vary by family: typically the instance and its size, the objective
+  Quicopt achieved, our-hardware wall-time, and — where a confident literature value exists — the
+  best-known / optimum, its source, and `%_of_best` (100 = matched). A family with no published
+  reference at these sizes (e.g. LABS) reports the field's native quality metric instead.
 
 <!-- BEGIN RESULTS -->
 
-### Gset — Maximum Cut
+### Results by problem family
 
-Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
+| problem | instances | objective | Quicopt result |
+| --- | --- | --- | --- |
+| [Gset — Maximum Cut](docs/gset.md) | 71 | cut (max) | 52/71 graded — median 99.0% of best-known |
+| [LABS — Low-Autocorrelation Binary Sequences](docs/labs.md) | 97 | sidelobe energy (min) | median merit factor F ≈ 5 across N=4–100 |
 
-**52/71 instances graded vs best-known** — median 99.0%, range 96.4–100.0% of best-known.
-
-| instance | N | edges | w | cut | best-known | %_of_best | wall_time_s | hardware | solver |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 | 800 | 19176 | +1 | 11623 | 11624 | 99.99 | 5.76 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G2 | 800 | 19176 | +1 | 11617 | 11620 | 99.97 | 0.7 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G3 | 800 | 19176 | +1 | 11621 | 11622 | 99.99 | 0.59 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G4 | 800 | 19176 | +1 | 11646 |  |  | 0.61 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G5 | 800 | 19176 | +1 | 11624 |  |  | 0.66 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G6 | 800 | 19176 | ±1 | 2175 |  |  | 0.61 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G7 | 800 | 19176 | ±1 | 2002 |  |  | 1.44 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G8 | 800 | 19176 | ±1 | 2002 |  |  | 0.61 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G9 | 800 | 19176 | ±1 | 2047 |  |  | 0.66 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G10 | 800 | 19176 | ±1 | 1997 |  |  | 0.62 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G11 | 800 | 1600 | ±1 | 556 | 564 | 98.58 | 0.39 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G12 | 800 | 1600 | ±1 | 550 | 556 | 98.92 | 0.31 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G13 | 800 | 1600 | ±1 | 574 | 582 | 98.63 | 0.42 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G14 | 800 | 4694 | +1 | 3041 | 3064 | 99.25 | 1.26 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G15 | 800 | 4661 | +1 | 3032 | 3050 | 99.41 | 1.34 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G16 | 800 | 4672 | +1 | 3037 | 3052 | 99.51 | 1.27 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G17 | 800 | 4667 | +1 | 3026 |  |  | 2.12 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G18 | 800 | 4694 | ±1 | 980 |  |  | 1.71 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G19 | 800 | 4661 | ±1 | 887 |  |  | 2.0 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G20 | 800 | 4672 | ±1 | 935 |  |  | 1.63 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G21 | 800 | 4667 | ±1 | 920 |  |  | 1.9 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G22 | 2000 | 19990 | +1 | 13327 | 13359 | 99.76 | 1.0 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G23 | 2000 | 19990 | +1 | 13326 |  |  | 1.7 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G24 | 2000 | 19990 | +1 | 13312 |  |  | 0.83 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G25 | 2000 | 19990 | +1 | 13313 | 13340 | 99.8 | 0.93 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G26 | 2000 | 19990 | +1 | 13299 | 13328 | 99.78 | 0.93 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G27 | 2000 | 19990 | ±1 | 3307 | 3341 | 98.98 | 0.91 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G28 | 2000 | 19990 | ±1 | 3275 | 3298 | 99.3 | 0.79 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G29 | 2000 | 19990 | ±1 | 3374 | 3405 | 99.09 | 1.64 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G30 | 2000 | 19990 | ±1 | 3381 | 3413 | 99.06 | 0.81 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G31 | 2000 | 19990 | ±1 | 3290 | 3309 | 99.43 | 0.93 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G32 | 2000 | 4000 | ±1 | 1374 | 1410 | 97.45 | 0.46 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G33 | 2000 | 4000 | ±1 | 1346 | 1382 | 97.4 | 0.42 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G34 | 2000 | 4000 | ±1 | 1352 | 1384 | 97.69 | 0.4 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G35 | 2000 | 11778 | +1 | 7618 |  |  | 2.2 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G36 | 2000 | 11766 | +1 | 7615 | 7678 | 99.18 | 3.96 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G37 | 2000 | 11785 | +1 | 7621 |  |  | 2.8 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G38 | 2000 | 11779 | +1 | 7621 | 7687 | 99.14 | 2.53 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G39 | 2000 | 11778 | ±1 | 2364 | 2408 | 98.17 | 3.13 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G40 | 2000 | 11766 | ±1 | 2334 | 2400 | 97.25 | 5.35 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G41 | 2000 | 11785 | ±1 | 2335 | 2405 | 97.09 | 3.57 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G42 | 2000 | 11779 | ±1 | 2417 | 2481 | 97.42 | 3.52 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G43 | 1000 | 9990 | +1 | 6653 | 6660 | 99.89 | 0.63 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G44 | 1000 | 9990 | +1 | 6646 |  |  | 1.55 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G45 | 1000 | 9990 | +1 | 6647 |  |  | 0.63 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G46 | 1000 | 9990 | +1 | 6641 |  |  | 0.79 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G47 | 1000 | 9990 | +1 | 6651 | 6657 | 99.91 | 0.53 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G48 | 3000 | 6000 | +1 | 5934 | 6000 | 98.9 | 0.8 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G49 | 3000 | 6000 | +1 | 5960 | 6000 | 99.33 | 0.82 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G50 | 3000 | 6000 | +1 | 5844 | 5880 | 99.39 | 1.58 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G51 | 1000 | 5909 | +1 | 3821 | 3848 | 99.3 | 1.56 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G52 | 1000 | 5916 | +1 | 3823 | 3851 | 99.27 | 1.58 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G53 | 1000 | 5914 | +1 | 3825 | 3850 | 99.35 | 1.35 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G54 | 1000 | 5916 | +1 | 3821 | 3852 | 99.2 | 1.45 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G55 | 5000 | 12498 | +1 | 10195 | 10294 | 99.04 | 2.15 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G56 | 5000 | 12498 | ±1 | 3907 | 4012 | 97.38 | 1.51 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G57 | 5000 | 10000 | ±1 | 3382 | 3494 | 96.79 | 1.54 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G58 | 5000 | 29570 | +1 | 19104 | 19263 | 99.17 | 10.72 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G59 | 5000 | 29570 | ±1 | 5919 | 6078 | 97.38 | 14.53 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G60 | 7000 | 17148 | +1 | 14028 | 14176 | 98.96 | 2.65 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G61 | 7000 | 17148 | ±1 | 5644 | 5789 | 97.5 | 2.67 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G62 | 7000 | 14000 | ±1 | 4702 | 4870 | 96.55 | 1.02 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G63 | 7000 | 41459 | +1 | 26761 | 27047 | 98.94 | 15.95 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G64 | 7000 | 41459 | ±1 | 8513 | 8735 | 97.46 | 20.03 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G65 | 8000 | 16000 | ±1 | 5378 | 5562 | 96.69 | 1.86 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G66 | 9000 | 18000 | ±1 | 6140 | 6364 | 96.48 | 1.26 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G67 | 10000 | 20000 | ±1 | 6714 | 6950 | 96.6 | 2.25 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G70 | 10000 | 9999 | +1 | 9448 | 9595 | 98.47 | 2.6 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G72 | 10000 | 20000 | ±1 | 6762 | 7008 | 96.49 | 2.05 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G77 | 14000 | 28000 | ±1 | 9580 | 9940 | 96.38 | 1.96 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G81 | 20000 | 40000 | ±1 | 13552 | 14060 | 96.39 | 2.75 | NVIDIA A100 80GB | Quicopt v0.1 |
-
+Full per-instance tables are in [`docs/`](docs/).
 <!-- END RESULTS -->
 
 ---
 
-<sub>Tables auto-generated from `data/` by `render.py` (run in CI on every data change). Best-known
-values are sourced per row and drift as new records are published; see each `data/<type>.csv`
-`source` column. Reference values are attributions to third-party results, not Quicopt output.</sub>
+<sub>Summary and per-problem pages auto-generated from `data/` by `render.py` (run in CI on every
+data change). Where a family carries reference values, they are sourced per row and drift as new
+records are published (see that family's `data/<type>.csv`). Reference values are attributions to
+third-party results, not Quicopt output.</sub>

@@ -1,1564 +1,3310 @@
 [
-  {
-    "problem_type": "gset",
-    "instance": "G1",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 11623.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 11624.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 5.7642136,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.99139710942877
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G2",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 11617.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 11620.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.69704443,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.97418244406197
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G3",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 11621.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 11622.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.58813643,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.99139562897952
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G4",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 11646.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.61325145,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G5",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 11624.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.6635826,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G6",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2175.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.6068161,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G7",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2002.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.4403111,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G8",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2002.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.60810566,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G9",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2047.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.66280484,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G10",
-    "size": {
-      "N": 800,
-      "edges": 19176,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 1997.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.62447447,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G11",
-    "size": {
-      "N": 800,
-      "edges": 1600,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 556.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 564.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.3916414,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.58156028368795
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G12",
-    "size": {
-      "N": 800,
-      "edges": 1600,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 550.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 556.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.31486368,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.92086330935251
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G13",
-    "size": {
-      "N": 800,
-      "edges": 1600,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 574.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 582.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.42190543,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.62542955326461
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G14",
-    "size": {
-      "N": 800,
-      "edges": 4694,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3041.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3064.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 1.2604299,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.24934725848564
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G15",
-    "size": {
-      "N": 800,
-      "edges": 4661,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3032.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3050.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 1.342433,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.40983606557377
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G16",
-    "size": {
-      "N": 800,
-      "edges": 4672,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3037.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3052.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 1.2728299,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.50851900393185
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G17",
-    "size": {
-      "N": 800,
-      "edges": 4667,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3026.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 2.1180253,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G18",
-    "size": {
-      "N": 800,
-      "edges": 4694,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 980.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.71401,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G19",
-    "size": {
-      "N": 800,
-      "edges": 4661,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 887.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 2.0032418,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G20",
-    "size": {
-      "N": 800,
-      "edges": 4672,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 935.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.6334132,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G21",
-    "size": {
-      "N": 800,
-      "edges": 4667,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 920.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.8971951,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G22",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13327.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 13359.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 1.0043764,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.76046111235871
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G23",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13326.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.7022551,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G24",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13312.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.82747436,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G25",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13313.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 13340.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.93051535,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.7976011994003
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G26",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13299.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 13328.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.93308187,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.78241296518607
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G27",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3307.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3341.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.9054965,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.98234061658187
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G28",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3275.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3298.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.7943572,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.30260764099454
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G29",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3374.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3405.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.6436427,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.08957415565345
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G30",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3381.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3413.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.8076158,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.06240843832406
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G31",
-    "size": {
-      "N": 2000,
-      "edges": 19990,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3290.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3309.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.9317136,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.4258084013297
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G32",
-    "size": {
-      "N": 2000,
-      "edges": 4000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 1374.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 1410.0,
-      "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
-    },
-    "wall_time_s": 0.45918575,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.44680851063829
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G33",
-    "size": {
-      "N": 2000,
-      "edges": 4000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 1346.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 1382.0,
-      "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
-    },
-    "wall_time_s": 0.4228937,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.39507959479016
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G34",
-    "size": {
-      "N": 2000,
-      "edges": 4000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 1352.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 1384.0,
-      "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
-    },
-    "wall_time_s": 0.39832264,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.6878612716763
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G35",
-    "size": {
-      "N": 2000,
-      "edges": 11778,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 7618.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 2.20387,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G36",
-    "size": {
-      "N": 2000,
-      "edges": 11766,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 7615.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 7678.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 3.958312,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.17947382130764
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G37",
-    "size": {
-      "N": 2000,
-      "edges": 11785,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 7621.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 2.7987795,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G38",
-    "size": {
-      "N": 2000,
-      "edges": 11779,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 7621.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 7687.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 2.527975,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.14140757122415
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G39",
-    "size": {
-      "N": 2000,
-      "edges": 11778,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2364.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 2408.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 3.1345577,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.17275747508306
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G40",
-    "size": {
-      "N": 2000,
-      "edges": 11766,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2334.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 2400.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 5.3452206,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.25
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G41",
-    "size": {
-      "N": 2000,
-      "edges": 11785,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2335.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 2405.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 3.5680356,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.0893970893971
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G42",
-    "size": {
-      "N": 2000,
-      "edges": 11779,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 2417.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 2481.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 3.5182652,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.42039500201531
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G43",
-    "size": {
-      "N": 1000,
-      "edges": 9990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6653.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6660.0,
-      "source": "standard tabulation (Benlic & Hao 2013)"
-    },
-    "wall_time_s": 0.63080037,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.89489489489489
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G44",
-    "size": {
-      "N": 1000,
-      "edges": 9990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6646.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 1.5469834,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G45",
-    "size": {
-      "N": 1000,
-      "edges": 9990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6647.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.6270006,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G46",
-    "size": {
-      "N": 1000,
-      "edges": 9990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6641.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": null,
-      "source": null
-    },
-    "wall_time_s": 0.7850694,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": null
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G47",
-    "size": {
-      "N": 1000,
-      "edges": 9990,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6651.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6657.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 0.52712405,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.90986931050023
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G48",
-    "size": {
-      "N": 3000,
-      "edges": 6000,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5934.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6000.0,
-      "source": "known optimum (bipartite torus: cut = |E|; Helmberg & Rendl 2000)"
-    },
-    "wall_time_s": 0.7988176,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.9
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G49",
-    "size": {
-      "N": 3000,
-      "edges": 6000,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5960.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6000.0,
-      "source": "known optimum (bipartite torus: cut = |E|; Helmberg & Rendl 2000)"
-    },
-    "wall_time_s": 0.8217141,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.33333333333333
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G50",
-    "size": {
-      "N": 3000,
-      "edges": 6000,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5844.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 5880.0,
-      "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
-    },
-    "wall_time_s": 1.5827422,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.38775510204081
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G51",
-    "size": {
-      "N": 1000,
-      "edges": 5909,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3821.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3848.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.564347,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.29833679833679
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G52",
-    "size": {
-      "N": 1000,
-      "edges": 5916,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3823.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3851.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.5833323,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.27291612568165
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G53",
-    "size": {
-      "N": 1000,
-      "edges": 5914,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3825.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3850.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.3479403,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.35064935064935
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G54",
-    "size": {
-      "N": 1000,
-      "edges": 5916,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3821.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3852.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.4501716,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.19522326064381
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G55",
-    "size": {
-      "N": 5000,
-      "edges": 12498,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 10195.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 10294.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 2.1534479,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.0382747231397
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G56",
-    "size": {
-      "N": 5000,
-      "edges": 12498,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3907.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 4012.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 1.5133301,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.38285144566301
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G57",
-    "size": {
-      "N": 5000,
-      "edges": 10000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 3382.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 3494.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 3492"
-    },
-    "wall_time_s": 1.5385883,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.79450486548369
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G58",
-    "size": {
-      "N": 5000,
-      "edges": 29570,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 19104.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 19263.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 10.717983,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 99.17458339822457
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G59",
-    "size": {
-      "N": 5000,
-      "edges": 29570,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5919.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6078.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 14.527726,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.38400789733466
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G60",
-    "size": {
-      "N": 7000,
-      "edges": 17148,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 14028.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 14176.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 2.6465595,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.95598194130926
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G61",
-    "size": {
-      "N": 7000,
-      "edges": 17148,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5644.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 5789.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 2.6688025,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.49524961133184
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G62",
-    "size": {
-      "N": 7000,
-      "edges": 14000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 4702.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 4870.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 4868"
-    },
-    "wall_time_s": 1.0231961,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.55030800821355
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G63",
-    "size": {
-      "N": 7000,
-      "edges": 41459,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 26761.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 27047.0,
-      "source": "arXiv 2510.21105 (2025); supersedes BLS 26997"
-    },
-    "wall_time_s": 15.9489,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.94258143232152
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G64",
-    "size": {
-      "N": 7000,
-      "edges": 41459,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 8513.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 8735.0,
-      "source": "Benlic & Hao 2013 (BLS results page)"
-    },
-    "wall_time_s": 20.033962,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 97.45850028620492
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G65",
-    "size": {
-      "N": 8000,
-      "edges": 16000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 5378.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 5562.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 5558"
-    },
-    "wall_time_s": 1.8558344,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.69183746853649
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G66",
-    "size": {
-      "N": 9000,
-      "edges": 18000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6140.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6364.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6360"
-    },
-    "wall_time_s": 1.2593642,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.48020113136393
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G67",
-    "size": {
-      "N": 10000,
-      "edges": 20000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6714.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 6950.0,
-      "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6940"
-    },
-    "wall_time_s": 2.2537935,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.60431654676259
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G70",
-    "size": {
-      "N": 10000,
-      "edges": 9999,
-      "weights": "+1"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 9448.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 9595.0,
-      "source": "MCPG (arXiv 2307.00783); supersedes BLS 9541"
-    },
-    "wall_time_s": 2.5971801,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 98.46795205836374
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G72",
-    "size": {
-      "N": 10000,
-      "edges": 20000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 6762.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 7008.0,
-      "source": "Cosm (arXiv 2505.18508); supersedes SBM-era 7006"
-    },
-    "wall_time_s": 2.0468998,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.48972602739725
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G77",
-    "size": {
-      "N": 14000,
-      "edges": 28000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 9580.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 9940.0,
-      "source": "Cosm (arXiv 2505.18508); supersedes BLS 9926"
-    },
-    "wall_time_s": 1.9588721,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.37826961770624
-  },
-  {
-    "problem_type": "gset",
-    "instance": "G81",
-    "size": {
-      "N": 20000,
-      "edges": 40000,
-      "weights": "\u00b11"
-    },
-    "objective": {
-      "name": "cut",
-      "value": 13552.0,
-      "sense": "max"
-    },
-    "reference": {
-      "value": 14060.0,
-      "source": "Cosm (arXiv 2505.18508); supersedes BLS 14030"
-    },
-    "wall_time_s": 2.75404,
-    "hardware": "NVIDIA A100 80GB",
-    "solver": "Quicopt v0.1",
-    "pct_of_best": 96.38691322901849
-  }
+ {
+  "problem_type": "gset",
+  "instance": "G1",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 11623.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 11624.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 5.7642136,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.99139710942877
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G2",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 11617.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 11620.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.69704443,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.97418244406197
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G3",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 11621.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 11622.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.58813643,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.99139562897952
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G4",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 11646.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.61325145,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G5",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 11624.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.6635826,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G6",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2175.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.6068161,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G7",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2002.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.4403111,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G8",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2002.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.60810566,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G9",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2047.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.66280484,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G10",
+  "size": {
+   "N": 800,
+   "edges": 19176,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 1997.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.62447447,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G11",
+  "size": {
+   "N": 800,
+   "edges": 1600,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 556.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 564.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.3916414,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.58156028368795
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G12",
+  "size": {
+   "N": 800,
+   "edges": 1600,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 550.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 556.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.31486368,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.92086330935251
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G13",
+  "size": {
+   "N": 800,
+   "edges": 1600,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 574.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 582.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.42190543,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.62542955326461
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G14",
+  "size": {
+   "N": 800,
+   "edges": 4694,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3041.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3064.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 1.2604299,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.24934725848564
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G15",
+  "size": {
+   "N": 800,
+   "edges": 4661,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3032.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3050.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 1.342433,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.40983606557377
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G16",
+  "size": {
+   "N": 800,
+   "edges": 4672,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3037.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3052.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 1.2728299,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.50851900393185
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G17",
+  "size": {
+   "N": 800,
+   "edges": 4667,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3026.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 2.1180253,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G18",
+  "size": {
+   "N": 800,
+   "edges": 4694,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 980.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.71401,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G19",
+  "size": {
+   "N": 800,
+   "edges": 4661,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 887.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 2.0032418,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G20",
+  "size": {
+   "N": 800,
+   "edges": 4672,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 935.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.6334132,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G21",
+  "size": {
+   "N": 800,
+   "edges": 4667,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 920.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.8971951,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G22",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13327.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 13359.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 1.0043764,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.76046111235871
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G23",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13326.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.7022551,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G24",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13312.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.82747436,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G25",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13313.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 13340.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.93051535,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.7976011994003
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G26",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13299.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 13328.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.93308187,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.78241296518607
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G27",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3307.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3341.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.9054965,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.98234061658187
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G28",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3275.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3298.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.7943572,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.30260764099454
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G29",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3374.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3405.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.6436427,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.08957415565345
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G30",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3381.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3413.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.8076158,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.06240843832406
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G31",
+  "size": {
+   "N": 2000,
+   "edges": 19990,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3290.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3309.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.9317136,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.4258084013297
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G32",
+  "size": {
+   "N": 2000,
+   "edges": 4000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 1374.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 1410.0,
+   "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
+  },
+  "wall_time_s": 0.45918575,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.44680851063829
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G33",
+  "size": {
+   "N": 2000,
+   "edges": 4000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 1346.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 1382.0,
+   "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
+  },
+  "wall_time_s": 0.4228937,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.39507959479016
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G34",
+  "size": {
+   "N": 2000,
+   "edges": 4000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 1352.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 1384.0,
+   "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
+  },
+  "wall_time_s": 0.39832264,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.6878612716763
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G35",
+  "size": {
+   "N": 2000,
+   "edges": 11778,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 7618.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 2.20387,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G36",
+  "size": {
+   "N": 2000,
+   "edges": 11766,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 7615.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 7678.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 3.958312,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.17947382130764
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G37",
+  "size": {
+   "N": 2000,
+   "edges": 11785,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 7621.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 2.7987795,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G38",
+  "size": {
+   "N": 2000,
+   "edges": 11779,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 7621.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 7687.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 2.527975,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.14140757122415
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G39",
+  "size": {
+   "N": 2000,
+   "edges": 11778,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2364.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 2408.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 3.1345577,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.17275747508306
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G40",
+  "size": {
+   "N": 2000,
+   "edges": 11766,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2334.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 2400.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 5.3452206,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.25
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G41",
+  "size": {
+   "N": 2000,
+   "edges": 11785,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2335.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 2405.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 3.5680356,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.0893970893971
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G42",
+  "size": {
+   "N": 2000,
+   "edges": 11779,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 2417.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 2481.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 3.5182652,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.42039500201531
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G43",
+  "size": {
+   "N": 1000,
+   "edges": 9990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6653.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6660.0,
+   "source": "standard tabulation (Benlic & Hao 2013)"
+  },
+  "wall_time_s": 0.63080037,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.89489489489489
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G44",
+  "size": {
+   "N": 1000,
+   "edges": 9990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6646.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 1.5469834,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G45",
+  "size": {
+   "N": 1000,
+   "edges": 9990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6647.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.6270006,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G46",
+  "size": {
+   "N": 1000,
+   "edges": 9990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6641.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": null,
+   "source": null
+  },
+  "wall_time_s": 0.7850694,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": null
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G47",
+  "size": {
+   "N": 1000,
+   "edges": 9990,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6651.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6657.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 0.52712405,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.90986931050023
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G48",
+  "size": {
+   "N": 3000,
+   "edges": 6000,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5934.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6000.0,
+   "source": "known optimum (bipartite torus: cut = |E|; Helmberg & Rendl 2000)"
+  },
+  "wall_time_s": 0.7988176,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.9
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G49",
+  "size": {
+   "N": 3000,
+   "edges": 6000,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5960.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6000.0,
+   "source": "known optimum (bipartite torus: cut = |E|; Helmberg & Rendl 2000)"
+  },
+  "wall_time_s": 0.8217141,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.33333333333333
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G50",
+  "size": {
+   "N": 3000,
+   "edges": 6000,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5844.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 5880.0,
+   "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
+  },
+  "wall_time_s": 1.5827422,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.38775510204081
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G51",
+  "size": {
+   "N": 1000,
+   "edges": 5909,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3821.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3848.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.564347,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.29833679833679
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G52",
+  "size": {
+   "N": 1000,
+   "edges": 5916,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3823.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3851.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.5833323,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.27291612568165
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G53",
+  "size": {
+   "N": 1000,
+   "edges": 5914,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3825.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3850.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.3479403,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.35064935064935
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G54",
+  "size": {
+   "N": 1000,
+   "edges": 5916,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3821.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3852.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.4501716,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.19522326064381
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G55",
+  "size": {
+   "N": 5000,
+   "edges": 12498,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 10195.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 10294.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 2.1534479,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.0382747231397
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G56",
+  "size": {
+   "N": 5000,
+   "edges": 12498,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3907.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 4012.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 1.5133301,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.38285144566301
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G57",
+  "size": {
+   "N": 5000,
+   "edges": 10000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 3382.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 3494.0,
+   "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 3492"
+  },
+  "wall_time_s": 1.5385883,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.79450486548369
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G58",
+  "size": {
+   "N": 5000,
+   "edges": 29570,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 19104.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 19263.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 10.717983,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 99.17458339822457
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G59",
+  "size": {
+   "N": 5000,
+   "edges": 29570,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5919.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6078.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 14.527726,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.38400789733466
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G60",
+  "size": {
+   "N": 7000,
+   "edges": 17148,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 14028.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 14176.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 2.6465595,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.95598194130926
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G61",
+  "size": {
+   "N": 7000,
+   "edges": 17148,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5644.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 5789.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 2.6688025,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.49524961133184
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G62",
+  "size": {
+   "N": 7000,
+   "edges": 14000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 4702.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 4870.0,
+   "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 4868"
+  },
+  "wall_time_s": 1.0231961,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.55030800821355
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G63",
+  "size": {
+   "N": 7000,
+   "edges": 41459,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 26761.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 27047.0,
+   "source": "arXiv 2510.21105 (2025); supersedes BLS 26997"
+  },
+  "wall_time_s": 15.9489,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.94258143232152
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G64",
+  "size": {
+   "N": 7000,
+   "edges": 41459,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 8513.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 8735.0,
+   "source": "Benlic & Hao 2013 (BLS results page)"
+  },
+  "wall_time_s": 20.033962,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 97.45850028620492
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G65",
+  "size": {
+   "N": 8000,
+   "edges": 16000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 5378.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 5562.0,
+   "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 5558"
+  },
+  "wall_time_s": 1.8558344,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.69183746853649
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G66",
+  "size": {
+   "N": 9000,
+   "edges": 18000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6140.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6364.0,
+   "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6360"
+  },
+  "wall_time_s": 1.2593642,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.48020113136393
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G67",
+  "size": {
+   "N": 10000,
+   "edges": 20000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6714.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 6950.0,
+   "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6940"
+  },
+  "wall_time_s": 2.2537935,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.60431654676259
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G70",
+  "size": {
+   "N": 10000,
+   "edges": 9999,
+   "weights": "+1"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 9448.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 9595.0,
+   "source": "MCPG (arXiv 2307.00783); supersedes BLS 9541"
+  },
+  "wall_time_s": 2.5971801,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 98.46795205836374
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G72",
+  "size": {
+   "N": 10000,
+   "edges": 20000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 6762.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 7008.0,
+   "source": "Cosm (arXiv 2505.18508); supersedes SBM-era 7006"
+  },
+  "wall_time_s": 2.0468998,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.48972602739725
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G77",
+  "size": {
+   "N": 14000,
+   "edges": 28000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 9580.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 9940.0,
+   "source": "Cosm (arXiv 2505.18508); supersedes BLS 9926"
+  },
+  "wall_time_s": 1.9588721,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.37826961770624
+ },
+ {
+  "problem_type": "gset",
+  "instance": "G81",
+  "size": {
+   "N": 20000,
+   "edges": 40000,
+   "weights": "\u00b11"
+  },
+  "objective": {
+   "name": "cut",
+   "value": 13552.0,
+   "sense": "max"
+  },
+  "reference": {
+   "value": 14060.0,
+   "source": "Cosm (arXiv 2505.18508); supersedes BLS 14030"
+  },
+  "wall_time_s": 2.75404,
+  "hardware": "NVIDIA A100 80GB",
+  "solver": "Quicopt v0.1",
+  "pct_of_best": 96.38691322901849
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-4",
+  "size": {
+   "N": 4
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 2.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.0,
+  "reference": null,
+  "wall_time_s": 0.01,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-5",
+  "size": {
+   "N": 5
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 2.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.25,
+  "reference": null,
+  "wall_time_s": 0.01,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-6",
+  "size": {
+   "N": 6
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 7.0,
+   "sense": "min"
+  },
+  "merit_factor": 2.57,
+  "reference": null,
+  "wall_time_s": 0.01,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-7",
+  "size": {
+   "N": 7
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 3.0,
+   "sense": "min"
+  },
+  "merit_factor": 8.17,
+  "reference": null,
+  "wall_time_s": 0.01,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-8",
+  "size": {
+   "N": 8
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 8.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.0,
+  "reference": null,
+  "wall_time_s": 0.02,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-9",
+  "size": {
+   "N": 9
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 12.0,
+   "sense": "min"
+  },
+  "merit_factor": 3.38,
+  "reference": null,
+  "wall_time_s": 0.02,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-10",
+  "size": {
+   "N": 10
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 13.0,
+   "sense": "min"
+  },
+  "merit_factor": 3.85,
+  "reference": null,
+  "wall_time_s": 0.02,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-11",
+  "size": {
+   "N": 11
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 5.0,
+   "sense": "min"
+  },
+  "merit_factor": 12.1,
+  "reference": null,
+  "wall_time_s": 0.02,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-12",
+  "size": {
+   "N": 12
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 10.0,
+   "sense": "min"
+  },
+  "merit_factor": 7.2,
+  "reference": null,
+  "wall_time_s": 0.02,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-13",
+  "size": {
+   "N": 13
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 6.0,
+   "sense": "min"
+  },
+  "merit_factor": 14.08,
+  "reference": null,
+  "wall_time_s": 0.03,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-14",
+  "size": {
+   "N": 14
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 19.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.16,
+  "reference": null,
+  "wall_time_s": 0.03,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-15",
+  "size": {
+   "N": 15
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 23.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.89,
+  "reference": null,
+  "wall_time_s": 0.03,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-16",
+  "size": {
+   "N": 16
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 24.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.33,
+  "reference": null,
+  "wall_time_s": 0.03,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-17",
+  "size": {
+   "N": 17
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 32.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.52,
+  "reference": null,
+  "wall_time_s": 0.04,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-18",
+  "size": {
+   "N": 18
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 25.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.48,
+  "reference": null,
+  "wall_time_s": 0.04,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-19",
+  "size": {
+   "N": 19
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 37.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.88,
+  "reference": null,
+  "wall_time_s": 0.05,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-20",
+  "size": {
+   "N": 20
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 34.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.88,
+  "reference": null,
+  "wall_time_s": 0.05,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-21",
+  "size": {
+   "N": 21
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 34.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.49,
+  "reference": null,
+  "wall_time_s": 0.06,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-22",
+  "size": {
+   "N": 22
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 39.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.21,
+  "reference": null,
+  "wall_time_s": 0.07,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-23",
+  "size": {
+   "N": 23
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 51.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.19,
+  "reference": null,
+  "wall_time_s": 0.07,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-24",
+  "size": {
+   "N": 24
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 52.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.54,
+  "reference": null,
+  "wall_time_s": 0.08,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-25",
+  "size": {
+   "N": 25
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 56.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.58,
+  "reference": null,
+  "wall_time_s": 0.09,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-26",
+  "size": {
+   "N": 26
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 61.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.54,
+  "reference": null,
+  "wall_time_s": 0.1,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-27",
+  "size": {
+   "N": 27
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 37.0,
+   "sense": "min"
+  },
+  "merit_factor": 9.85,
+  "reference": null,
+  "wall_time_s": 0.11,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-28",
+  "size": {
+   "N": 28
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 74.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.3,
+  "reference": null,
+  "wall_time_s": 0.12,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-29",
+  "size": {
+   "N": 29
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 78.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.39,
+  "reference": null,
+  "wall_time_s": 0.13,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-30",
+  "size": {
+   "N": 30
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 83.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.42,
+  "reference": null,
+  "wall_time_s": 0.14,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-31",
+  "size": {
+   "N": 31
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 83.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.79,
+  "reference": null,
+  "wall_time_s": 0.16,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-32",
+  "size": {
+   "N": 32
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 80.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.4,
+  "reference": null,
+  "wall_time_s": 0.18,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-33",
+  "size": {
+   "N": 33
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 104.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.24,
+  "reference": null,
+  "wall_time_s": 0.19,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-34",
+  "size": {
+   "N": 34
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 97.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.96,
+  "reference": null,
+  "wall_time_s": 0.21,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-35",
+  "size": {
+   "N": 35
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 109.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.62,
+  "reference": null,
+  "wall_time_s": 0.24,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-36",
+  "size": {
+   "N": 36
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 114.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.68,
+  "reference": null,
+  "wall_time_s": 0.26,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-37",
+  "size": {
+   "N": 37
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 106.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.46,
+  "reference": null,
+  "wall_time_s": 0.28,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-38",
+  "size": {
+   "N": 38
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 135.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.35,
+  "reference": null,
+  "wall_time_s": 0.31,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-39",
+  "size": {
+   "N": 39
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 139.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.47,
+  "reference": null,
+  "wall_time_s": 0.34,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-40",
+  "size": {
+   "N": 40
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 144.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.56,
+  "reference": null,
+  "wall_time_s": 0.37,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-41",
+  "size": {
+   "N": 41
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 140.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.0,
+  "reference": null,
+  "wall_time_s": 0.4,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-42",
+  "size": {
+   "N": 42
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 157.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.62,
+  "reference": null,
+  "wall_time_s": 0.44,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-43",
+  "size": {
+   "N": 43
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 161.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.74,
+  "reference": null,
+  "wall_time_s": 0.47,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-44",
+  "size": {
+   "N": 44
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 186.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.2,
+  "reference": null,
+  "wall_time_s": 0.52,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-45",
+  "size": {
+   "N": 45
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 170.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.96,
+  "reference": null,
+  "wall_time_s": 0.55,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-46",
+  "size": {
+   "N": 46
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 155.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.83,
+  "reference": null,
+  "wall_time_s": 0.6,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-47",
+  "size": {
+   "N": 47
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 219.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.04,
+  "reference": null,
+  "wall_time_s": 0.65,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-48",
+  "size": {
+   "N": 48
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 208.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.54,
+  "reference": null,
+  "wall_time_s": 0.72,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-49",
+  "size": {
+   "N": 49
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 224.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.36,
+  "reference": null,
+  "wall_time_s": 0.77,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-50",
+  "size": {
+   "N": 50
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 257.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.86,
+  "reference": null,
+  "wall_time_s": 0.84,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-51",
+  "size": {
+   "N": 51
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 221.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.88,
+  "reference": null,
+  "wall_time_s": 0.89,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-52",
+  "size": {
+   "N": 52
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 242.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.59,
+  "reference": null,
+  "wall_time_s": 0.95,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-53",
+  "size": {
+   "N": 53
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 238.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.9,
+  "reference": null,
+  "wall_time_s": 1.07,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-54",
+  "size": {
+   "N": 54
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 263.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.54,
+  "reference": null,
+  "wall_time_s": 1.13,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-55",
+  "size": {
+   "N": 55
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 299.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.06,
+  "reference": null,
+  "wall_time_s": 1.22,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-56",
+  "size": {
+   "N": 56
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 304.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.16,
+  "reference": null,
+  "wall_time_s": 1.26,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-57",
+  "size": {
+   "N": 57
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 316.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.14,
+  "reference": null,
+  "wall_time_s": 1.39,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-58",
+  "size": {
+   "N": 58
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 301.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.59,
+  "reference": null,
+  "wall_time_s": 1.46,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-59",
+  "size": {
+   "N": 59
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 313.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.56,
+  "reference": null,
+  "wall_time_s": 1.57,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-60",
+  "size": {
+   "N": 60
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 346.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.2,
+  "reference": null,
+  "wall_time_s": 1.68,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-61",
+  "size": {
+   "N": 61
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 358.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.2,
+  "reference": null,
+  "wall_time_s": 1.81,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-62",
+  "size": {
+   "N": 62
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 371.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.18,
+  "reference": null,
+  "wall_time_s": 1.92,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-63",
+  "size": {
+   "N": 63
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 351.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.65,
+  "reference": null,
+  "wall_time_s": 2.04,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-64",
+  "size": {
+   "N": 64
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 396.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.17,
+  "reference": null,
+  "wall_time_s": 2.21,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-65",
+  "size": {
+   "N": 65
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 400.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.28,
+  "reference": null,
+  "wall_time_s": 2.3,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-66",
+  "size": {
+   "N": 66
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 417.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.22,
+  "reference": null,
+  "wall_time_s": 2.46,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-67",
+  "size": {
+   "N": 67
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 357.0,
+   "sense": "min"
+  },
+  "merit_factor": 6.29,
+  "reference": null,
+  "wall_time_s": 2.63,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-68",
+  "size": {
+   "N": 68
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 442.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.23,
+  "reference": null,
+  "wall_time_s": 2.8,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-69",
+  "size": {
+   "N": 69
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 470.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.06,
+  "reference": null,
+  "wall_time_s": 2.27,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-70",
+  "size": {
+   "N": 70
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 479.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.11,
+  "reference": null,
+  "wall_time_s": 3.4,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-71",
+  "size": {
+   "N": 71
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 519.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.86,
+  "reference": null,
+  "wall_time_s": 3.61,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-72",
+  "size": {
+   "N": 72
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 508.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.1,
+  "reference": null,
+  "wall_time_s": 3.7,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-73",
+  "size": {
+   "N": 73
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 544.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.9,
+  "reference": null,
+  "wall_time_s": 3.99,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-74",
+  "size": {
+   "N": 74
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 565.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.85,
+  "reference": null,
+  "wall_time_s": 4.25,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-75",
+  "size": {
+   "N": 75
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 569.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.94,
+  "reference": null,
+  "wall_time_s": 4.38,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-76",
+  "size": {
+   "N": 76
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 586.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.93,
+  "reference": null,
+  "wall_time_s": 4.57,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-77",
+  "size": {
+   "N": 77
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 646.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.59,
+  "reference": null,
+  "wall_time_s": 5.0,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-78",
+  "size": {
+   "N": 78
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 667.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.56,
+  "reference": null,
+  "wall_time_s": 5.27,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-79",
+  "size": {
+   "N": 79
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 647.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.82,
+  "reference": null,
+  "wall_time_s": 5.51,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-80",
+  "size": {
+   "N": 80
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 632.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.06,
+  "reference": null,
+  "wall_time_s": 5.88,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-81",
+  "size": {
+   "N": 81
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 672.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.88,
+  "reference": null,
+  "wall_time_s": 6.24,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-82",
+  "size": {
+   "N": 82
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 681.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.94,
+  "reference": null,
+  "wall_time_s": 6.62,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-83",
+  "size": {
+   "N": 83
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 733.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.7,
+  "reference": null,
+  "wall_time_s": 6.97,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-84",
+  "size": {
+   "N": 84
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 730.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.83,
+  "reference": null,
+  "wall_time_s": 7.37,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-85",
+  "size": {
+   "N": 85
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 742.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.87,
+  "reference": null,
+  "wall_time_s": 7.92,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-86",
+  "size": {
+   "N": 86
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 767.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.82,
+  "reference": null,
+  "wall_time_s": 8.33,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-87",
+  "size": {
+   "N": 87
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 763.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.96,
+  "reference": null,
+  "wall_time_s": 8.76,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-88",
+  "size": {
+   "N": 88
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 740.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.23,
+  "reference": null,
+  "wall_time_s": 9.3,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-89",
+  "size": {
+   "N": 89
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 828.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.78,
+  "reference": null,
+  "wall_time_s": 9.78,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-90",
+  "size": {
+   "N": 90
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 845.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.79,
+  "reference": null,
+  "wall_time_s": 10.69,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-91",
+  "size": {
+   "N": 91
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 857.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.83,
+  "reference": null,
+  "wall_time_s": 11.33,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-92",
+  "size": {
+   "N": 92
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 738.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.73,
+  "reference": null,
+  "wall_time_s": 11.81,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-93",
+  "size": {
+   "N": 93
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 854.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.06,
+  "reference": null,
+  "wall_time_s": 13.06,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-94",
+  "size": {
+   "N": 94
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 915.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.83,
+  "reference": null,
+  "wall_time_s": 13.54,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-95",
+  "size": {
+   "N": 95
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 867.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.2,
+  "reference": null,
+  "wall_time_s": 14.13,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-96",
+  "size": {
+   "N": 96
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 984.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.68,
+  "reference": null,
+  "wall_time_s": 14.48,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-97",
+  "size": {
+   "N": 97
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 1000.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.7,
+  "reference": null,
+  "wall_time_s": 14.99,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-98",
+  "size": {
+   "N": 98
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 897.0,
+   "sense": "min"
+  },
+  "merit_factor": 5.35,
+  "reference": null,
+  "wall_time_s": 16.24,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-99",
+  "size": {
+   "N": 99
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 985.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.98,
+  "reference": null,
+  "wall_time_s": 15.1,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ },
+ {
+  "problem_type": "labs",
+  "instance": "LABS-100",
+  "size": {
+   "N": 100
+  },
+  "objective": {
+   "name": "sidelobe_energy",
+   "value": 1022.0,
+   "sense": "min"
+  },
+  "merit_factor": 4.89,
+  "reference": null,
+  "wall_time_s": 10.81,
+  "hardware": "AMD EPYC-Rome (1 core)",
+  "solver": "Quicopt v0.1",
+  "n_seeds": 100
+ }
 ]
