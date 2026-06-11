@@ -1,0 +1,9 @@
+{
+  "gset": {
+    "blurb": "Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.",
+    "n_instances": 71,
+    "objective_label": "cut",
+    "reference_label": "best-known",
+    "title": "Gset \u2014 Maximum Cut"
+  }
+}
