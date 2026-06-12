@@ -236,8 +236,8 @@
    "value": 564.0,
    "source": "standard tabulation (Benlic & Hao 2013)"
   },
-  "wall_time_s": 0.48,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 0.87,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -258,8 +258,8 @@
    "value": 556.0,
    "source": "standard tabulation (Benlic & Hao 2013)"
   },
-  "wall_time_s": 0.47,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 0.78,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -280,8 +280,8 @@
    "value": 582.0,
    "source": "standard tabulation (Benlic & Hao 2013)"
   },
-  "wall_time_s": 0.43,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 0.85,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -698,8 +698,8 @@
    "value": 1410.0,
    "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
   },
-  "wall_time_s": 1.13,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 1.59,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -720,8 +720,8 @@
    "value": 1382.0,
    "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
   },
-  "wall_time_s": 1.38,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 1.8,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -742,8 +742,8 @@
    "value": 1384.0,
    "source": "SBM-era tabulation (Toshiba SBM via 0816keisuke/max-cut-problem-benchmark)"
   },
-  "wall_time_s": 1.25,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 1.64,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -1248,8 +1248,8 @@
    "value": 3494.0,
    "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 3492"
   },
-  "wall_time_s": 3.19,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 4.72,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 100.0
  },
@@ -1358,8 +1358,8 @@
    "value": 4870.0,
    "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 4868"
   },
-  "wall_time_s": 9.14,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 10.16,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.91786447638604
  },
@@ -1424,8 +1424,8 @@
    "value": 5562.0,
    "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 5558"
   },
-  "wall_time_s": 10.09,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 11.94,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.96404171161453
  },
@@ -1446,8 +1446,8 @@
    "value": 6364.0,
    "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6360"
   },
-  "wall_time_s": 22.79,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 24.05,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.84286612193588
  },
@@ -1468,8 +1468,8 @@
    "value": 6950.0,
    "source": "SBM-era tabulation (via 0816keisuke/max-cut-problem-benchmark); supersedes BLS 6940"
   },
-  "wall_time_s": 30.16,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 32.41,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.97122302158273
  },
@@ -1512,8 +1512,8 @@
    "value": 7008.0,
    "source": "Cosm (arXiv 2505.18508); supersedes SBM-era 7006"
   },
-  "wall_time_s": 30.8,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 32.84,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.91438356164383
  },
@@ -1534,8 +1534,8 @@
    "value": 9940.0,
    "source": "Cosm (arXiv 2505.18508); supersedes BLS 9926"
   },
-  "wall_time_s": 38.89,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 40.85,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.93963782696177
  },
@@ -1556,8 +1556,8 @@
    "value": 14060.0,
    "source": "Cosm (arXiv 2505.18508); supersedes BLS 14030"
   },
-  "wall_time_s": 56.04,
-  "hardware": "AMD EPYC (CPU)",
+  "wall_time_s": 58.79,
+  "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
   "pct_of_best": 99.88620199146514
  },

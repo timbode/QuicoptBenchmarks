@@ -16,9 +16,9 @@ Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
 | G8 | 800 | 19176 | ±1 | 2002 |  |  | 0.61 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G9 | 800 | 19176 | ±1 | 2047 |  |  | 0.66 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G10 | 800 | 19176 | ±1 | 1997 |  |  | 0.62 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G11 | 800 | 1600 | ±1 | 564 | 564 | 100.00 | 0.48 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G12 | 800 | 1600 | ±1 | 556 | 556 | 100.00 | 0.47 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G13 | 800 | 1600 | ±1 | 582 | 582 | 100.00 | 0.43 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G11 | 800 | 1600 | ±1 | 564 | 564 | 100.00 | 0.87 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G12 | 800 | 1600 | ±1 | 556 | 556 | 100.00 | 0.78 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G13 | 800 | 1600 | ±1 | 582 | 582 | 100.00 | 0.85 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 | G14 | 800 | 4694 | +1 | 3041 | 3064 | 99.25 | 1.26 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G15 | 800 | 4661 | +1 | 3032 | 3050 | 99.41 | 1.34 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G16 | 800 | 4672 | +1 | 3037 | 3052 | 99.51 | 1.27 | NVIDIA A100 80GB | Quicopt v0.1 |
@@ -37,9 +37,9 @@ Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
 | G29 | 2000 | 19990 | ±1 | 3374 | 3405 | 99.09 | 1.64 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G30 | 2000 | 19990 | ±1 | 3381 | 3413 | 99.06 | 0.81 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G31 | 2000 | 19990 | ±1 | 3290 | 3309 | 99.43 | 0.93 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G32 | 2000 | 4000 | ±1 | 1410 | 1410 | 100.00 | 1.13 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G33 | 2000 | 4000 | ±1 | 1382 | 1382 | 100.00 | 1.38 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G34 | 2000 | 4000 | ±1 | 1384 | 1384 | 100.00 | 1.25 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G32 | 2000 | 4000 | ±1 | 1410 | 1410 | 100.00 | 1.59 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G33 | 2000 | 4000 | ±1 | 1382 | 1382 | 100.00 | 1.80 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G34 | 2000 | 4000 | ±1 | 1384 | 1384 | 100.00 | 1.64 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 | G35 | 2000 | 11778 | +1 | 7618 |  |  | 2.2 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G36 | 2000 | 11766 | +1 | 7615 | 7678 | 99.18 | 3.96 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G37 | 2000 | 11785 | +1 | 7621 |  |  | 2.8 | NVIDIA A100 80GB | Quicopt v0.1 |
@@ -62,21 +62,21 @@ Max-Cut on the standard Gset graphs (Stanford). Objective = cut value.
 | G54 | 1000 | 5916 | +1 | 3821 | 3852 | 99.2 | 1.45 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G55 | 5000 | 12498 | +1 | 10195 | 10294 | 99.04 | 2.15 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G56 | 5000 | 12498 | ±1 | 3907 | 4012 | 97.38 | 1.51 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G57 | 5000 | 10000 | ±1 | 3494 | 3494 | 100.00 | 3.19 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G57 | 5000 | 10000 | ±1 | 3494 | 3494 | 100.00 | 4.72 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 | G58 | 5000 | 29570 | +1 | 19104 | 19263 | 99.17 | 10.72 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G59 | 5000 | 29570 | ±1 | 5919 | 6078 | 97.38 | 14.53 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G60 | 7000 | 17148 | +1 | 14028 | 14176 | 98.96 | 2.65 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G61 | 7000 | 17148 | ±1 | 5644 | 5789 | 97.5 | 2.67 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G62 | 7000 | 14000 | ±1 | 4866 | 4870 | 99.92 | 9.14 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G62 | 7000 | 14000 | ±1 | 4866 | 4870 | 99.92 | 10.16 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 | G63 | 7000 | 41459 | +1 | 26761 | 27047 | 98.94 | 15.95 | NVIDIA A100 80GB | Quicopt v0.1 |
 | G64 | 7000 | 41459 | ±1 | 8513 | 8735 | 97.46 | 20.03 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G65 | 8000 | 16000 | ±1 | 5560 | 5562 | 99.96 | 10.09 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G66 | 9000 | 18000 | ±1 | 6354 | 6364 | 99.84 | 22.79 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G67 | 10000 | 20000 | ±1 | 6948 | 6950 | 99.97 | 30.16 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G65 | 8000 | 16000 | ±1 | 5560 | 5562 | 99.96 | 11.94 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G66 | 9000 | 18000 | ±1 | 6354 | 6364 | 99.84 | 24.05 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G67 | 10000 | 20000 | ±1 | 6948 | 6950 | 99.97 | 32.41 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 | G70 | 10000 | 9999 | +1 | 9448 | 9595 | 98.47 | 2.6 | NVIDIA A100 80GB | Quicopt v0.1 |
-| G72 | 10000 | 20000 | ±1 | 7002 | 7008 | 99.91 | 30.80 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G77 | 14000 | 28000 | ±1 | 9934 | 9940 | 99.94 | 38.89 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
-| G81 | 20000 | 40000 | ±1 | 14044 | 14060 | 99.89 | 56.04 | AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G72 | 10000 | 20000 | ±1 | 7002 | 7008 | 99.91 | 32.84 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G77 | 14000 | 28000 | ±1 | 9934 | 9940 | 99.94 | 40.85 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
+| G81 | 20000 | 40000 | ±1 | 14044 | 14060 | 99.89 | 58.79 | NVIDIA A100 80GB + AMD EPYC (CPU) | Quicopt v0.1 + post-solve |
 
 ---
 
