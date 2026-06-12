@@ -239,7 +239,11 @@
   "wall_time_s": 0.87,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.39,
+   "cooling_s": 0.48
+  }
  },
  {
   "problem_type": "gset",
@@ -261,7 +265,11 @@
   "wall_time_s": 0.78,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.31,
+   "cooling_s": 0.47
+  }
  },
  {
   "problem_type": "gset",
@@ -283,7 +291,11 @@
   "wall_time_s": 0.85,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.42,
+   "cooling_s": 0.43
+  }
  },
  {
   "problem_type": "gset",
@@ -701,7 +713,11 @@
   "wall_time_s": 1.59,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.46,
+   "cooling_s": 1.13
+  }
  },
  {
   "problem_type": "gset",
@@ -723,7 +739,11 @@
   "wall_time_s": 1.8,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.42,
+   "cooling_s": 1.38
+  }
  },
  {
   "problem_type": "gset",
@@ -745,7 +765,11 @@
   "wall_time_s": 1.64,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 0.4,
+   "cooling_s": 1.25
+  }
  },
  {
   "problem_type": "gset",
@@ -1251,7 +1275,11 @@
   "wall_time_s": 4.72,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 100.0
+  "pct_of_best": 100.0,
+  "wall_time_components": {
+   "anneal_s": 1.54,
+   "cooling_s": 3.19
+  }
  },
  {
   "problem_type": "gset",
@@ -1361,7 +1389,11 @@
   "wall_time_s": 10.16,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.91786447638604
+  "pct_of_best": 99.91786447638604,
+  "wall_time_components": {
+   "anneal_s": 1.02,
+   "cooling_s": 9.14
+  }
  },
  {
   "problem_type": "gset",
@@ -1427,7 +1459,11 @@
   "wall_time_s": 11.94,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.96404171161453
+  "pct_of_best": 99.96404171161453,
+  "wall_time_components": {
+   "anneal_s": 1.86,
+   "cooling_s": 10.09
+  }
  },
  {
   "problem_type": "gset",
@@ -1449,7 +1485,11 @@
   "wall_time_s": 24.05,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.84286612193588
+  "pct_of_best": 99.84286612193588,
+  "wall_time_components": {
+   "anneal_s": 1.26,
+   "cooling_s": 22.79
+  }
  },
  {
   "problem_type": "gset",
@@ -1471,7 +1511,11 @@
   "wall_time_s": 32.41,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.97122302158273
+  "pct_of_best": 99.97122302158273,
+  "wall_time_components": {
+   "anneal_s": 2.25,
+   "cooling_s": 30.16
+  }
  },
  {
   "problem_type": "gset",
@@ -1515,7 +1559,11 @@
   "wall_time_s": 32.84,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.91438356164383
+  "pct_of_best": 99.91438356164383,
+  "wall_time_components": {
+   "anneal_s": 2.05,
+   "cooling_s": 30.8
+  }
  },
  {
   "problem_type": "gset",
@@ -1537,7 +1585,11 @@
   "wall_time_s": 40.85,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.93963782696177
+  "pct_of_best": 99.93963782696177,
+  "wall_time_components": {
+   "anneal_s": 1.96,
+   "cooling_s": 38.89
+  }
  },
  {
   "problem_type": "gset",
@@ -1559,7 +1611,11 @@
   "wall_time_s": 58.79,
   "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
   "solver": "Quicopt v0.1 + post-solve",
-  "pct_of_best": 99.88620199146514
+  "pct_of_best": 99.88620199146514,
+  "wall_time_components": {
+   "anneal_s": 2.75,
+   "cooling_s": 56.04
+  }
  },
  {
   "problem_type": "labs",
