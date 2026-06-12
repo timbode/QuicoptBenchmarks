@@ -20,7 +20,7 @@ The summary below has one row per problem family; the full per-instance results 
 
 | problem | instances | objective | Quicopt result |
 | --- | --- | --- | --- |
-| [Gset — Maximum Cut](docs/gset.md) | 71 | cut (max) | 52/71 graded — median 99.0% of best-known |
+| [Gset — Maximum Cut](docs/gset.md) | 71 | cut (max) | 52/71 graded — median 99.4% of best-known |
 | [LABS — Low-Autocorrelation Binary Sequences](docs/labs.md) | 97 | sidelobe energy (min) | median merit factor F ≈ 5 across N=4–100 |
 
 Full per-instance tables are in [`docs/`](docs/).
