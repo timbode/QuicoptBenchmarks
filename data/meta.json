@@ -5,14 +5,22 @@
     "objective_label": "cut",
     "objective_sense": "max",
     "reference_label": "best-known",
-    "title": "Gset — Maximum Cut"
+    "title": "Gset \u2014 Maximum Cut"
   },
   "labs": {
-    "blurb": "Low-Autocorrelation Binary Sequences: find a ±1 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N ≤ 66 and the whole field sits well above it, so no reference/gap column is shown here — the head-to-head against Gurobi and ABS2 lives on the website. Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's wall-clock (≈ the slowest seed).",
+    "blurb": "Low-Autocorrelation Binary Sequences: find a \u00b11 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N \u2264 66 and the whole field sits well above it, so no reference/gap column is shown here \u2014 the head-to-head against Gurobi and ABS2 lives on the website. Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's wall-clock (\u2248 the slowest seed).",
+    "headline": "median merit factor F \u2248 5 across N=4\u2013100",
     "n_instances": 97,
     "objective_label": "sidelobe energy",
     "objective_sense": "min",
-    "headline": "median merit factor F ≈ 5 across N=4–100",
-    "title": "LABS — Low-Autocorrelation Binary Sequences"
+    "title": "LABS \u2014 Low-Autocorrelation Binary Sequences"
+  },
+  "mis": {
+    "blurb": "Maximum Independent Set on the QOBLIB benchmark graphs (07-independentset): find the largest set of vertices with no edge between any two. Objective = set size. Reference values are the QOBLIB solutions (38 proven-optimal, 12 best-known); %_of_best = 100 means the reference set size was matched.",
+    "n_instances": 50,
+    "objective_label": "set size",
+    "objective_sense": "max",
+    "reference_label": "best-known",
+    "title": "Maximum Independent Set"
   }
 }
