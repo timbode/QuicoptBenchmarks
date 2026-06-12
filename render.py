@@ -86,18 +86,73 @@ def page_text(ptype, m, header, rows):
     return "\n".join(parts)
 
 
-def landing_body(fams):
+# MIS is published as two back-end tables (GPU vs CPU) on one page; see mis_combined_page().
+MIS_TYPES = ("mis-gpu", "mis-cpu")
+
+
+def _obj_label(m):
+    obj = m.get("objective_label", "")
+    return f"{obj} ({m['objective_sense']})" if m.get("objective_sense") else obj
+
+
+def landing_body(fams, mis_present, both_mis):
+    """One row per family; if both MIS back-ends are present they collapse into a single row."""
     header = ["problem", "instances", "objective", "Quicopt result"]
     rows = []
     for ptype, m, h, r in fams:
-        obj = m.get("objective_label", "")
-        if m.get("objective_sense"):
-            obj = f"{obj} ({m['objective_sense']})"
-        rows.append([f"[{m.get('title', ptype)}](docs/{ptype}.md)", len(r), obj,
+        if both_mis and ptype in MIS_TYPES:
+            continue
+        rows.append([f"[{m.get('title', ptype)}](docs/{ptype}.md)", len(r), _obj_label(m),
+                     landing_headline(h, r, m)])
+    if mis_present:
+        m, h, r = mis_present
+        rows.append([f"[Maximum Independent Set](docs/mis.md)", len(r), _obj_label(m),
                      landing_headline(h, r, m)])
     return ("### Results by problem family\n\n"
             + md_table(header, rows)
             + "\n\nFull per-instance tables are in [`docs/`](docs/).")
+
+
+def mis_combined_page(gpu, cpu):
+    """One MIS page with two tables (GPU + CPU); per instance the faster wall-time is bold. Drops the
+    uniform hardware/solver columns — the hardware names each section instead."""
+    gm, gh, gr = gpu
+    cm, ch, cr = cpu
+
+    def wmap(header, rows):
+        ii, wi = header.index("instance"), header.index("wall_time_s")
+        return {row[ii]: float(row[wi]) for row in rows}
+    gw, cw = wmap(gh, gr), wmap(ch, cr)
+
+    def table(header, rows, mine, other):
+        keep = [j for j, c in enumerate(header) if c not in ("hardware", "solver")]
+        hdr = [header[j] for j in keep]
+        ii, wj = header.index("instance"), hdr.index("wall_time_s")
+        body = []
+        for row in rows:
+            cells = [row[j] for j in keep]
+            if mine.get(row[ii], float("inf")) < other.get(row[ii], float("inf")):
+                cells[wj] = f"**{cells[wj]}**"                 # bold the faster back-end
+            body.append(cells)
+        return md_table(hdr, body)
+
+    ghw = gr[0][gh.index("hardware")] if gr else "GPU"
+    chw = cr[0][ch.index("hardware")] if cr else "CPU"
+    solver = gr[0][gh.index("solver")] if gr else "Quicopt"
+    parts = ["# Maximum Independent Set\n"]
+    if gm.get("blurb"):
+        parts.append(gm["blurb"] + "\n")
+    summ = page_summary(gh, gr, gm)
+    if summ:
+        parts.append(summ + "\n")
+    parts.append(f"### {ghw}\n")
+    parts.append(table(gh, gr, gw, cw) + "\n")
+    parts.append(f"### {chw}\n")
+    parts.append(table(ch, cr, cw, gw) + "\n")
+    parts.append(f"---\n\n<sub>Solver: {solver}. Per instance the faster wall-time is in **bold**. "
+                 "Generated from [`../data/`](../data/) by [`../render.py`](../render.py). "
+                 "Reference values are third-party attributions, not Quicopt output.</sub>\n")
+    return "\n".join(parts)
 
 
 def splice(readme_text, body):
@@ -111,8 +166,18 @@ def splice(readme_text, body):
 def build():
     """Return {path: desired_text} for the landing README and every per-problem page."""
     fams = families()
-    out = {DOCS / f"{ptype}.md": page_text(ptype, m, h, r) for ptype, m, h, r in fams}
-    out[README] = splice(README.read_text(), landing_body(fams))
+    fmap = {ptype: (m, h, r) for ptype, m, h, r in fams}
+    both_mis = "mis-gpu" in fmap and "mis-cpu" in fmap
+    out = {}
+    for ptype, m, h, r in fams:
+        if both_mis and ptype in MIS_TYPES:
+            continue                                   # the pair is rendered as one combined page
+        out[DOCS / f"{ptype}.md"] = page_text(ptype, m, h, r)
+    mis_present = None
+    if both_mis:
+        out[DOCS / "mis.md"] = mis_combined_page(fmap["mis-gpu"], fmap["mis-cpu"])
+        mis_present = fmap["mis-gpu"]
+    out[README] = splice(README.read_text(), landing_body(fams, mis_present, both_mis))
     return out
 
 

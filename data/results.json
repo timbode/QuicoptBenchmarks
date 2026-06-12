@@ -3364,7 +3364,1057 @@
     "n_seeds": 100
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-cpu",
+    "instance": "C125-9",
+    "size": {
+      "N": 125,
+      "edges": 787
+    },
+    "objective": {
+      "name": "size",
+      "value": 34,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 34.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.079114741,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "C500-9",
+    "size": {
+      "N": 500,
+      "edges": 12418
+    },
+    "objective": {
+      "name": "size",
+      "value": 54,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 57.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 1.144554768,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 94.73684210526316
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "C4000-5",
+    "size": {
+      "N": 4000,
+      "edges": 3997732
+    },
+    "objective": {
+      "name": "size",
+      "value": 15,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 18.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 15.94594371,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 83.33333333333333
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "MANN-a9",
+    "size": {
+      "N": 45,
+      "edges": 918
+    },
+    "objective": {
+      "name": "size",
+      "value": 3,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 3.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.005184463,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "R_500_005_1",
+    "size": {
+      "N": 500,
+      "edges": 6256
+    },
+    "objective": {
+      "name": "size",
+      "value": 88,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 91.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 1.213119997,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 96.7032967032967
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "R_1000_005_1",
+    "size": {
+      "N": 1000,
+      "edges": 24670
+    },
+    "objective": {
+      "name": "size",
+      "value": 112,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 117.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 1.5189571370000001,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 95.72649572649573
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "aves-sparrow-social",
+    "size": {
+      "N": 52,
+      "edges": 454
+    },
+    "objective": {
+      "name": "size",
+      "value": 13,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 13.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.013111682,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock200-1",
+    "size": {
+      "N": 200,
+      "edges": 14834
+    },
+    "objective": {
+      "name": "size",
+      "value": 6,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 6.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.025604022,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock200-2",
+    "size": {
+      "N": 200,
+      "edges": 10024
+    },
+    "objective": {
+      "name": "size",
+      "value": 11,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 12.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.025037907,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 91.66666666666667
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock200-3",
+    "size": {
+      "N": 200,
+      "edges": 12048
+    },
+    "objective": {
+      "name": "size",
+      "value": 9,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 9.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.025238989,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock200-4",
+    "size": {
+      "N": 200,
+      "edges": 13089
+    },
+    "objective": {
+      "name": "size",
+      "value": 8,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 8.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.025604646,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock400-1",
+    "size": {
+      "N": 400,
+      "edges": 20077
+    },
+    "objective": {
+      "name": "size",
+      "value": 24,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 27.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.076960884,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 88.88888888888889
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "brock800-1",
+    "size": {
+      "N": 800,
+      "edges": 112095
+    },
+    "objective": {
+      "name": "size",
+      "value": 19,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 23.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.253964998,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 82.6086956521739
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "c-fat200-1",
+    "size": {
+      "N": 200,
+      "edges": 1534
+    },
+    "objective": {
+      "name": "size",
+      "value": 18,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 18.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0286141340000001,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "chesapeake",
+    "size": {
+      "N": 39,
+      "edges": 170
+    },
+    "objective": {
+      "name": "size",
+      "value": 17,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 17.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.051319692,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "es60fst01",
+    "size": {
+      "N": 123,
+      "edges": 159
+    },
+    "objective": {
+      "name": "size",
+      "value": 60,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 60.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.018186665,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "es60fst02",
+    "size": {
+      "N": 186,
+      "edges": 280
+    },
+    "objective": {
+      "name": "size",
+      "value": 88,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 88.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0279897850000002,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "es60fst03",
+    "size": {
+      "N": 113,
+      "edges": 142
+    },
+    "objective": {
+      "name": "size",
+      "value": 55,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 55.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0169963359999998,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "es60fst04",
+    "size": {
+      "N": 162,
+      "edges": 238
+    },
+    "objective": {
+      "name": "size",
+      "value": 78,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 78.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0243538620000001,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "farm",
+    "size": {
+      "N": 17,
+      "edges": 39
+    },
+    "objective": {
+      "name": "size",
+      "value": 10,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 10.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.008080208,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "football",
+    "size": {
+      "N": 35,
+      "edges": 118
+    },
+    "objective": {
+      "name": "size",
+      "value": 16,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 16.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.018181835,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "frb45-21-3",
+    "size": {
+      "N": 945,
+      "edges": 58245
+    },
+    "objective": {
+      "name": "size",
+      "value": 41,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 45.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.410291502,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 91.11111111111111
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "frb50-23-3",
+    "size": {
+      "N": 1150,
+      "edges": 81068
+    },
+    "objective": {
+      "name": "size",
+      "value": 47,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 50.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.7339855590000002,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 94.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "frb53-24-1",
+    "size": {
+      "N": 1272,
+      "edges": 94227
+    },
+    "objective": {
+      "name": "size",
+      "value": 48,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 52.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 2.289261004,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 92.3076923076923
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "frb59-26-2",
+    "size": {
+      "N": 1534,
+      "edges": 126163
+    },
+    "objective": {
+      "name": "size",
+      "value": 54,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 58.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 3.605969769,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 93.10344827586206
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "frb100-40",
+    "size": {
+      "N": 4000,
+      "edges": 572774
+    },
+    "objective": {
+      "name": "size",
+      "value": 88,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 94.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 24.535764966,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 93.61702127659575
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "gen200_p0-9_44",
+    "size": {
+      "N": 200,
+      "edges": 1990
+    },
+    "objective": {
+      "name": "size",
+      "value": 40,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 44.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0659676329999999,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 90.9090909090909
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "hamming6-2",
+    "size": {
+      "N": 64,
+      "edges": 1824
+    },
+    "objective": {
+      "name": "size",
+      "value": 2,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 2.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.014489741,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "hamming6-4",
+    "size": {
+      "N": 64,
+      "edges": 704
+    },
+    "objective": {
+      "name": "size",
+      "value": 12,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 12.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.022886572,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "hamming10-4",
+    "size": {
+      "N": 1024,
+      "edges": 89600
+    },
+    "objective": {
+      "name": "size",
+      "value": 38,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 40.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 1.4428547360000001,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 95.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "ibm32",
+    "size": {
+      "N": 32,
+      "edges": 90
+    },
+    "objective": {
+      "name": "size",
+      "value": 13,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 13.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.007408882,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "insecta-ant-colony1-day38",
+    "size": {
+      "N": 56,
+      "edges": 1134
+    },
+    "objective": {
+      "name": "size",
+      "value": 6,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 6.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.008043525,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "insecta-ant-colony3-day09",
+    "size": {
+      "N": 160,
+      "edges": 8883
+    },
+    "objective": {
+      "name": "size",
+      "value": 9,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 9.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.027358848,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "johnson8-2-4",
+    "size": {
+      "N": 28,
+      "edges": 210
+    },
+    "objective": {
+      "name": "size",
+      "value": 7,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 7.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.005139808,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "johnson8-4-4",
+    "size": {
+      "N": 70,
+      "edges": 1855
+    },
+    "objective": {
+      "name": "size",
+      "value": 5,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 5.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0092248430000001,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "johnson16-2-4",
+    "size": {
+      "N": 120,
+      "edges": 5460
+    },
+    "objective": {
+      "name": "size",
+      "value": 15,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 15.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.02818243,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "karate",
+    "size": {
+      "N": 34,
+      "edges": 78
+    },
+    "objective": {
+      "name": "size",
+      "value": 20,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 20.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.02689467,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "keller4",
+    "size": {
+      "N": 171,
+      "edges": 5100
+    },
+    "objective": {
+      "name": "size",
+      "value": 11,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 11.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.030974155,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "keller6",
+    "size": {
+      "N": 3361,
+      "edges": 1026582
+    },
+    "objective": {
+      "name": "size",
+      "value": 50,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 59.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 18.737284622,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 84.7457627118644
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "mammalia-kangaroo-interactions",
+    "size": {
+      "N": 17,
+      "edges": 91
+    },
+    "objective": {
+      "name": "size",
+      "value": 4,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 4.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.004488469,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "p_hat1500-1",
+    "size": {
+      "N": 1500,
+      "edges": 839327
+    },
+    "objective": {
+      "name": "size",
+      "value": 11,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 12.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 3.992346048,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 91.66666666666667
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "p_hat1500-3",
+    "size": {
+      "N": 1500,
+      "edges": 277006
+    },
+    "objective": {
+      "name": "size",
+      "value": 94,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 94.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 4.143197956,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sloane_1dc_64",
+    "size": {
+      "N": 64,
+      "edges": 543
+    },
+    "objective": {
+      "name": "size",
+      "value": 10,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 10.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.021916069,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sloane_1dc_128",
+    "size": {
+      "N": 128,
+      "edges": 1471
+    },
+    "objective": {
+      "name": "size",
+      "value": 16,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 16.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.022990861,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sloane_1zc_128",
+    "size": {
+      "N": 128,
+      "edges": 1120
+    },
+    "objective": {
+      "name": "size",
+      "value": 18,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 18.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.0263403210000002,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sloane_2dc_128",
+    "size": {
+      "N": 128,
+      "edges": 5173
+    },
+    "objective": {
+      "name": "size",
+      "value": 5,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 5.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 1.025730035,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 100.0
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "socfb-haverford76",
+    "size": {
+      "N": 1446,
+      "edges": 59589
+    },
+    "objective": {
+      "name": "size",
+      "value": 281,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 282.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 10.254999433999998,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 99.64539007092199
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "socfb-trinity100",
+    "size": {
+      "N": 2613,
+      "edges": 111996
+    },
+    "objective": {
+      "name": "size",
+      "value": 495,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 499.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 137.391881227,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 99.19839679358718
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sorrell4",
+    "size": {
+      "N": 2048,
+      "edges": 504451
+    },
+    "objective": {
+      "name": "size",
+      "value": 22,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 24.0,
+      "source": "QOBLIB 07-independentset (proven optimal)"
+    },
+    "wall_time_s": 7.404281066,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 91.66666666666667
+  },
+  {
+    "problem_type": "mis-cpu",
+    "instance": "sorrell7",
+    "size": {
+      "N": 2048,
+      "edges": 39424
+    },
+    "objective": {
+      "name": "size",
+      "value": 182,
+      "sense": "max"
+    },
+    "reference": {
+      "value": 198.0,
+      "source": "QOBLIB 07-independentset (best-known)"
+    },
+    "wall_time_s": 7.7974844899999995,
+    "hardware": "AMD EPYC-Rome (1 core)",
+    "solver": "Quicopt v0.1",
+    "pct_of_best": 91.91919191919192
+  },
+  {
+    "problem_type": "mis-gpu",
     "instance": "C125-9",
     "size": {
       "N": 125,
@@ -3380,12 +4430,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 2.2120625374519043,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "C500-9",
     "size": {
       "N": 500,
@@ -3401,12 +4451,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 5.068489922381592,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 94.73684210526316
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "C4000-5",
     "size": {
       "N": 4000,
@@ -3422,12 +4472,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.478535791220398,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 83.33333333333333
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "MANN-a9",
     "size": {
       "N": 45,
@@ -3443,12 +4493,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4298593575499572,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "R_500_005_1",
     "size": {
       "N": 500,
@@ -3464,12 +4514,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.8513965704584046,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 95.6043956043956
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "R_1000_005_1",
     "size": {
       "N": 1000,
@@ -3485,12 +4535,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.516311698799652,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 95.72649572649573
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "aves-sparrow-social",
     "size": {
       "N": 52,
@@ -3506,12 +4556,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 2.0083384505352786,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock200-1",
     "size": {
       "N": 200,
@@ -3527,12 +4577,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.431879904870346,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock200-2",
     "size": {
       "N": 200,
@@ -3548,12 +4598,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4329976046532287,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.66666666666667
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock200-3",
     "size": {
       "N": 200,
@@ -3569,12 +4619,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4309376157991638,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock200-4",
     "size": {
       "N": 200,
@@ -3590,12 +4640,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4330630521916503,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock400-1",
     "size": {
       "N": 400,
@@ -3611,12 +4661,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4449284907553406,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 88.88888888888889
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "brock800-1",
     "size": {
       "N": 800,
@@ -3632,12 +4682,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4456271630820619,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 82.6086956521739
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "c-fat200-1",
     "size": {
       "N": 200,
@@ -3653,12 +4703,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4317195970406036,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "chesapeake",
     "size": {
       "N": 39,
@@ -3674,12 +4724,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 4.3031047049233395,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "es60fst01",
     "size": {
       "N": 123,
@@ -3695,12 +4745,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4509793587628632,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "es60fst02",
     "size": {
       "N": 186,
@@ -3716,12 +4766,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.460952816568634,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "es60fst03",
     "size": {
       "N": 113,
@@ -3737,12 +4787,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.462549191641388,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "es60fst04",
     "size": {
       "N": 162,
@@ -3758,12 +4808,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4643008049768678,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "farm",
     "size": {
       "N": 17,
@@ -3779,12 +4829,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 2.2588303125043945,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "football",
     "size": {
       "N": 35,
@@ -3800,12 +4850,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 2.9173273095441283,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "frb45-21-3",
     "size": {
       "N": 945,
@@ -3821,12 +4871,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4611534697291413,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.11111111111111
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "frb50-23-3",
     "size": {
       "N": 1150,
@@ -3842,12 +4892,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4483746667495574,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 94.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "frb53-24-1",
     "size": {
       "N": 1272,
@@ -3863,12 +4913,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.4518126901763153,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 92.3076923076923
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "frb59-26-2",
     "size": {
       "N": 1534,
@@ -3884,12 +4934,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.4874010256401977,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.37931034482759
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "frb100-40",
     "size": {
       "N": 4000,
@@ -3905,12 +4955,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.4103402792815551,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 93.61702127659575
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "gen200_p0-9_44",
     "size": {
       "N": 200,
@@ -3926,12 +4976,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.88571170579599,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 90.9090909090909
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "hamming6-2",
     "size": {
       "N": 64,
@@ -3947,12 +4997,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.429651743316742,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "hamming6-4",
     "size": {
       "N": 64,
@@ -3968,12 +5018,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4389806221298218,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "hamming10-4",
     "size": {
       "N": 1024,
@@ -3989,12 +5039,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.43723220790567,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 95.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "ibm32",
     "size": {
       "N": 32,
@@ -4010,12 +5060,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.8136440175393067,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "insecta-ant-colony1-day38",
     "size": {
       "N": 56,
@@ -4031,12 +5081,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4898858496173248,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "insecta-ant-colony3-day09",
     "size": {
       "N": 160,
@@ -4052,12 +5102,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4343728580958253,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "johnson8-2-4",
     "size": {
       "N": 28,
@@ -4073,12 +5123,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.5054764998868713,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "johnson8-4-4",
     "size": {
       "N": 70,
@@ -4094,12 +5144,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4624469809218446,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "johnson16-2-4",
     "size": {
       "N": 120,
@@ -4115,12 +5165,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4277063036943665,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "karate",
     "size": {
       "N": 34,
@@ -4136,12 +5186,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 3.274222622111084,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "keller4",
     "size": {
       "N": 171,
@@ -4157,12 +5207,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4381988766301728,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "keller6",
     "size": {
       "N": 3361,
@@ -4178,12 +5228,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.4457945182956542,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 84.7457627118644
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "mammalia-kangaroo-interactions",
     "size": {
       "N": 17,
@@ -4199,12 +5249,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.5834174816047364,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "p_hat1500-1",
     "size": {
       "N": 1500,
@@ -4220,12 +5270,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4765315653216553,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.66666666666667
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "p_hat1500-3",
     "size": {
       "N": 1500,
@@ -4241,12 +5291,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4975452949128265,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sloane_1dc_64",
     "size": {
       "N": 64,
@@ -4262,12 +5312,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.6450965345311583,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sloane_1dc_128",
     "size": {
       "N": 128,
@@ -4283,12 +5333,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.5022175310523682,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sloane_1zc_128",
     "size": {
       "N": 128,
@@ -4304,12 +5354,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4533878210999145,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sloane_2dc_128",
     "size": {
       "N": 128,
@@ -4325,12 +5375,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.4368700098957825,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 100.0
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "socfb-haverford76",
     "size": {
       "N": 1446,
@@ -4346,12 +5396,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 2.76837130159021,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 99.64539007092199
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "socfb-trinity100",
     "size": {
       "N": 2613,
@@ -4367,12 +5417,12 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 6.523805564375245,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 99.39879759519039
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sorrell4",
     "size": {
       "N": 2048,
@@ -4388,12 +5438,12 @@
       "source": "QOBLIB 07-independentset (proven optimal)"
     },
     "wall_time_s": 1.5204185733906554,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.66666666666667
   },
   {
-    "problem_type": "mis",
+    "problem_type": "mis-gpu",
     "instance": "sorrell7",
     "size": {
       "N": 2048,
@@ -4409,7 +5459,7 @@
       "source": "QOBLIB 07-independentset (best-known)"
     },
     "wall_time_s": 1.3966510701585388,
-    "hardware": "NVIDIA A100 80GB + AMD EPYC (CPU)",
+    "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.91919191919192
   }
