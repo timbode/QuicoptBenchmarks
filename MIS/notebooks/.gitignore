@@ -1,0 +1,4 @@
+# QOBLIB instance graphs fetched by verify_solutions.ipynb (standard public benchmark set,
+# not redistributed here). Recompute-from-source only — never committed.
+mis_instances/
+.ipynb_checkpoints/

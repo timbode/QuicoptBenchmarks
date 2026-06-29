@@ -1,6 +1,6 @@
 # Maximum Independent Set
 
-Maximum Independent Set on the QOBLIB benchmark graphs (07-independentset): find the largest set of vertices with no edge between any two. Objective = set size. Reference values are the QOBLIB solutions (38 proven-optimal, 12 best-known); %_of_best = 100 means the reference set size was matched. The same run is reported on two back-ends below; per instance the faster wall-time is shown in bold.
+Maximum Independent Set on the QOBLIB benchmark graphs (07-independentset): find the largest set of vertices with no edge between any two. Objective = set size. Reference values are the QOBLIB solutions (38 proven-optimal, 12 best-known); %_of_best = 100 means the reference set size was matched. The same run is reported on two back-ends below; per instance the faster wall-time is shown in bold. Solution certificates (the best independent set per instance) are in [`../MIS/solutions/`](../MIS/solutions/); recompute and check them with [`../MIS/notebooks/verify_solutions.ipynb`](../MIS/notebooks/verify_solutions.ipynb).
 
 **50/50 instances graded vs best-known** — median 100.0%, range 82.6–100.0% of best-known.
 
